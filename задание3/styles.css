@@ -1,0 +1,71 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f8f8f8;
+}
+
+.container {
+    margin: 0;
+    padding: 0;
+    width: 1010px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+th {
+    border: 1px solid black;
+    text-align: center;
+    padding: 5px;
+    font-size: 16px;
+}
+ 
+td {
+    border: 1px solid black;
+    text-align: center;
+}
+
+input {
+    width: 250px;
+    height: 20px;
+    padding: 15px;
+    text-align: right;
+    border: 0;
+    text-decoration: none;
+    position: relative;
+    font-family: monospace;
+}
+
+input::placeholder {
+    color: grey;
+}
+
+.sum {
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    margin: 0;
+    padding: 0;
+}
+
+.sum p {
+    padding: 10px;
+}
+
+.out {
+    border: 1px solid black;
+    width: 150px;
+    height: 30px;
+    text-align: right;
+}

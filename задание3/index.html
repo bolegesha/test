@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Задание 3</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <table>
+            <tr>
+                <th>Значение 1</th>
+                <th>Значение 2</th>
+                <th>Значение 3</th>
+                <th>Значение 4</th>
+            </tr>
+            <tr>
+                <td><input placeholder="<input 1>" id="input1" type="text" oninput="formatAndSum(this)" onfocus="addPlaceholder(this)" onblur="removePlaceholder(this)"></td>
+                <td><input placeholder="<input 2>" id="input2" type="text" oninput="formatAndSum(this)" onfocus="addPlaceholder(this)" onblur="removePlaceholder(this)"></td>
+                <td><input placeholder="<input 3>" id="input3" type="text" oninput="formatAndSum(this)" onfocus="addPlaceholder(this)" onblur="removePlaceholder(this)"></td>
+                <td><input placeholder="<input 4>" id="input4" type="text" oninput="formatAndSum(this)" onfocus="addPlaceholder(this)" onblur="removePlaceholder(this)"></td>
+            </tr>
+        </table>
+        <div class="sum">
+            <p>Сумма:</p>
+            <input class="out" id="sum" type="text" readonly>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
