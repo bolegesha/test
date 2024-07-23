@@ -1,0 +1,91 @@
+body {
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 100%;
+    max-width: 850px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    border: 1px solid #000;
+}
+
+.date-city {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+td {
+    width:260px;
+    border: 1px solid #000;
+    padding: 5px;
+    vertical-align: top;
+}
+
+ol {
+  text-align: left;
+  list-style-type: decimal;
+  margin: 0;
+  padding-left: 15px;
+}
+
+ol > li {
+  margin-bottom: 10px;
+}
+
+ul {
+  list-style-type: disc;
+  margin-left: 20px;
+}
+
+ol li{
+
+}
+
+.header-li{
+    padding: 0;
+    display: flex;
+    text-align: center;
+    font-weight: bold;
+}
+
+.header-title {
+    text-align: center;
+    font-weight: bold;
+}
+
+.signature-header{
+    display: flex;
+    width: 100%;
+}
+
+.signature-header p{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.signature-item{
+    font-weight: bold;
+    padding-bottom: 30px;
+}
+
+.section-title {
+    font-weight: bold;
+    padding-left: 10px;
+}
+
+.signature-footer{
+    font-weight: bold;
+    padding-bottom: 30px;
+}
